@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Value Blog
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Value Blog
+subheading: Organic and sustainable opinions and news
 mainpitch:
   title: Why Kaldi
   description: >
