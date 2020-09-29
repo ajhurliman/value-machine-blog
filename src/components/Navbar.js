@@ -39,11 +39,11 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
+        <div className="container" style={{borderBottom: '1px solid gray'}}>
           <div className="navbar-brand">
-            <a href="https://www.valuemachine.io" className="navbar-item" title="Logo" style={{}}>
+            <Link to="/" className="navbar-item" title="Logo" style={{}}>
               <img src={logo} alt="ValueMachine" style={{ width: '50px' }} />
-            </a>
+            </Link>
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -61,13 +61,10 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-start has-text-centered">
               <a className="navbar-item" href="https://www.valuemachine.io/">
-                Home
+                Main Site
               </a>
               <a className="navbar-item" href="https://www.valuemachine.io/faq">
                 FAQ
-              </a>
-              <a className="navbar-item" href="https://www.valuemachine.io/settings">
-                Profile
               </a>
             </div>
 

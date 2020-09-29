@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import logo from '../img/logo.svg'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
+import reddit from '../img/social/reddit.svg'
 import vimeo from '../img/social/vimeo.svg'
 
 const Footer = class extends React.Component {
@@ -12,11 +12,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: '14em', height: '10em' }}
-          />
+          <h1 style={{color: 'white'}}>VALUE MACHINE</h1>
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
@@ -25,33 +21,18 @@ const Footer = class extends React.Component {
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
-                      <Link to="/" className="navbar-item">
+                      <a href="https://www.valuemachine.io" className="navbar-item">
                         Home
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
+                      <a href="https://www.valuemachine.io/faq" className="navbar-item" to="/about">
+                        FAQ
+                      </a>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
+                      <a href="https://www.valuemachine.io/privacy" className="navbar-item" to="/products">
+                        Privacy
                       </a>
                     </li>
                   </ul>
@@ -60,46 +41,30 @@ const Footer = class extends React.Component {
               <div className="column is-4">
                 <section>
                   <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
-                      </Link>
+                    <li className="footer-item">
+                      ©2020 ValueMachine LLC All rights reserved.
                     </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
+                    <li className="footer-item">
+                      Market data by IEX Cloud
+                    </li>
+                    <li className="footer-item">
+                      Investing in securities products involves risk, including possible loss of principal.
                     </li>
                   </ul>
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
+                <a title="instagram" href="https://instagram.com/valueamchine">
                   <img
                     src={instagram}
                     alt="Instagram"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="vimeo" href="https://vimeo.com">
+                <a title="vimeo" href="https://reddit.com/r/valuemachine">
                   <img
-                    src={vimeo}
-                    alt="Vimeo"
+                    src={reddit}
+                    alt="Reddit"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
