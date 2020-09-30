@@ -13,3 +13,5 @@ tags:
 Hey everyone,
 
 This is our kick-off post of the blog. We're hoping to have a steady feed of opinions, news, and other materials worthy of reading. If you're interested in contributing, send an email over to james@valuemachine.io.
+
+Stay tuned : )
