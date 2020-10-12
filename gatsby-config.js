@@ -73,7 +73,7 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     {
-      resolve: ` gatsby-plugin-netlify-headers`,
+      resolve: `gatsby-plugin-netlify-headers`,
       options: {
         headers: {
           "/*": [
