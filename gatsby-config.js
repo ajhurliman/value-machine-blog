@@ -73,15 +73,20 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     {
-      resolve: `gatsby-plugin-netlify-headers`,
+      resolve: `gatsby-plugin-netlify`, // make sure to keep it last in the array
       options: {
         headers: {
           "/*": [
             "Referrer-Policy: origin-when-cross-origin",
           ]
-        }                                 
-      }
+        },
+        allPageHeaders: [], // option to add headers for all pages. `Link` headers are transformed by the below criteria
+        mergeSecurityHeaders: true, // boolean to turn off the default security headers
+        mergeLinkHeaders: true, // boolean to turn off the default gatsby js headers
+        mergeCachingHeaders: true, // boolean to turn off the default caching headers
+        transformHeaders: (headers, path) => headers, // optional transform for manipulating headers under each path (e.g.sorting), etc.
+        generateMatchPathRewrites: true, // boolean to turn off automatic creation of redirect rules for client only paths
+      },
     },
-    'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
