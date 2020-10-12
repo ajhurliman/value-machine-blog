@@ -75,13 +75,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify`, // make sure to keep it last in the array
       options: {
-        allPageHeaders: [
-          {
-            "/*": [
-              "Referrer-Policy: origin-when-cross-origin",
-            ]
-          },
-        ], // option to add headers for all pages. `Link` headers are transformed by the below criteria
+        headers: {
+          "/*": [
+            "Referrer-Policy: origin-when-cross-origin",
+          ]
+        },
       },
     },
   ],
