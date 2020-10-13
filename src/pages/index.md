@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Value Blog
-image: /img/dollar-1443244_1280.jpg
+image: /img/sahand-hoseini-vrjnslh2noy-unsplash.jpg
 heading: Value Blog
 subheading: Organic and sustainable opinions and news
 mainpitch:
