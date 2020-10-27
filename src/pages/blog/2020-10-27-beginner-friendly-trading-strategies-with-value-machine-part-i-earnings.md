@@ -29,7 +29,7 @@ As an example lets go to Yahoo! Finance and use their calendar to find a stock *
 
 2. Now that we have our stock lets head over to ValueMachine and place an order for a `Long Strangle` **that expires the Friday after the earnings date**
 
-![Gamestop earnings Long Strangle](/img/screen-shot-2020-10-27-at-12.46.37-am.png "Gamestop earnings Long Strangle")
+![Gamestop earnings Long Strangle](/img/gme_long_strangle.png "Gamestop earnings Long Strangle")
 
 3. Now click the big blue SUBMIT button and you're all set.
 
