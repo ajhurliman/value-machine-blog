@@ -4,7 +4,7 @@ title: "Splunk Poised for a Bounce? "
 date: 2020-12-14T02:26:26.139Z
 description: "Short-term swing trade. "
 featuredpost: true
-featuredimage: /img/screen-shot-2020-12-14-at-12.08.38-am.png
+featuredimage: /img/splunks.png
 tags:
   - trade
 ---
